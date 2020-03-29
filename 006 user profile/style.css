@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans&display=swap');
+body{
+  background-image: linear-gradient(to right, #fff2f4, #ffe8eb, #ffdde1, #ffd3d6, #ffc9cb, #ffc4ca, #ffbfcb, #ffbacc, #fbbad9, #f4bce7, #e8c0f4, #d9c4ff);
+  overflow-x: hidden!important;
+  overflow-y: hidden!important;
+  color: #212121;
+  text-align:center;
+}
+img{
+  /*image effect*/
+  opacity:0.7;
+  filter:blur(0.5px);
+  /*-----*/
+  position:relative;
+  top:0;
+  width:100%;
+  height:auto;  
+  margin:auto;
+  position: 50% 50%;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+  margin:0; 
+}
+
+/*gradient profile pic*/
+.image {
+  border-radius: 10px 10px 0px 0px;
+  background-image: linear-gradient(to right, #ff0000, #ff517f, #ff97d2, #f8d1fc, #ffffff);
+}
+/*------*/
+.main{
+  opacity:0.7;
+  background-color: white;
+  width: 100%;
+  max-width:300px;
+  max-height: 570px;
+  top:20px;
+  box-shadow: 0px 8px 60px -10px rgba(13,28,39,0.6);
+  border-radius: 10px;
+  padding-bottom:16px;
+  /*---*/
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: 50% 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main:hover{
+  opacity:1;
+}
+.stat{
+  padding-top:30px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color:white;
+  font-family: 'Josefin Sans';
+  float: left;
+  width: 10%;
+  text-align:left;
+}
+.title{
+  color:#FFCDD2;
+}
+span{
+  line-height:2;
+}
+h1{
+  font-family: 'Abril Fatface';
+}
+p, h3{
+  font-family: 'Josefin Sans';
+  line-height:1;
+}
+p{
+  padding-right:10px;
+  padding-left:10px;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color:red;
+}
+.fa:hover {
+  transform: scale(1.2);
+}
+/*next to location*/
+svg{
+  transform: translate(0, -30%);
+  float:left;
+}
+.location{
+  width: 30%;
+  margin: 0 auto;
+}
+
+
+
+
