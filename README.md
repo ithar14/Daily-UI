@@ -5,9 +5,10 @@
 *  Dribble : https://www.dribbble.com/ithar
 *  Codepen : https://codepen.io/ithar
 
-#### Signup Form 001 (done)
-#### User Profile 006 (done)
-#### ToDo List 042 (WIP)
+#### 001 Signup Form (done)
+#### 002 Credit Card Checkout (done)
+#### 006 User Profile (done)
+#### 042 ToDo List (WIP)
 
 
 
