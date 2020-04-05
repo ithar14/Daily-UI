@@ -8,6 +8,7 @@
 #### 001 Signup Form (done)
 #### 002 Credit Card Checkout (done)
 #### 006 User Profile (done)
+#### 007 Settings (done)
 #### 042 ToDo List (WIP)
 
 
