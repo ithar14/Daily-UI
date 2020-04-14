@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Girassol|Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body{
+  background-color: #FFF59D;
+}
+.wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: 50% 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main{
+  width:500px;
+  height:400px;
+  background-color:white;
+  
+  border-radius:10px;
+  box-shadow: 0px 8px 60px -10px white;
+  padding:50px;
+  padding-top:30px;
+}
+
+img{
+  filter:opacity(50%);
+  
+  position:fixed;
+  right:10%;
+  top:16%;
+  float:right;
+  
+  width:200px;
+  height:310px;
+}
+#image{
+  position:fixed;
+  right:8.5%;
+  top:16%;
+  float:right;
+  background-color:#FFF59D;
+  width:210px;
+  height:320px;
+}
+#quote-box{
+  float:left;
+  position:absolute;
+  width:270px;
+  top:27%;
+  font-family: 'Playfair Display';
+}
+/*button*/
+#button{
+  position:absolute;
+  top:68%;
+}
+button{
+  background-color: #FFF59D; 
+  border: none;
+  color: #424242;
+  padding: 15px 32px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Quicksand';
+}
+
+.fa{
+  font-size:20px
+}
+.fa-twitter{
+  position:fixed;
+  bottom:9%;
+  right:9%;
+  font-size:20px;
+  cursor:pointer;
+  transform: scale(2);
+}
+.fa-twitter:hover {
+  transform: scale(2.2);
+}
+
+/*footerrr*/
+#footer {
+  text-align:center;
+  font-size:15px;
+  color:#424242;
+  font-family: 'Quicksand';
+}
+a{
+  font-weight:500;
+  text-decoration:none;
+  color:#3E2723;
+}
+
