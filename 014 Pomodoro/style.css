@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans&display=swap');
+/*--------*/
+.inst{
+  text-align:center;
+  color:black;
+  position: fixed;
+  top:-25%;
+}
+/*-------*/
+body{
+  background-color: #8D6E63;
+  font-family: 'Josefin Sans'; 
+  color:#9C27B0;
+}
+.wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: auto;
+  margin-right: auto;
+}
+.main{
+  width:300px;
+  height:410px;
+  /*border: 1px solid #B71C1C;*/
+  background-color:white;
+ 
+  box-shadow: 0px 8px 60px -20px white;
+  border-radius: 10px;
+  padding:10px;
+  padding-top:10px;
+}
+.text{
+  position: fixed;
+  transform:rotate(90deg);
+  top:21%;
+  left:43%;
+  font-family: 'Abril Fatface';
+  font-size:30px;
+}
+.player{
+  position: fixed;
+  bottom:9%;
+  right:11%;
+  font-size:35px;
+}
+.fa{
+  cursor:pointer;
+}
+#timer{
+  font-size:90px;
+  width:100px;
+  position:fixed;
+  left:10%;
+  top:-3%;
+  line-height:1.7;
+}
