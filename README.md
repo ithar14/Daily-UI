@@ -10,6 +10,7 @@
 #### 004 Calculator [ 04/15/2020 ]
 #### 006 User Profile [ 03/28/2020 ]
 #### 007 Settings [ 04/04/2020 ]
+#### 014 Pomodoro [ 04/17/2020 ]
 #### 042 ToDo List (WIP)
 #### 108 Random Quote Generator [ 04/14/2020 ]
 
