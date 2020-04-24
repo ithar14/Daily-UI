@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans&display=swap');
+
+*{
+  cursor: url('https://img.icons8.com/ios-filled/50/000000/cursor.png'), auto;
+}
+
+body{
+  background-color:#FFA2A2;
+  overflow: hidden;
+}
+#wrapper{
+  position: absolute;
+  border: 3px solid #FF3737;
+  
+  background-color:#D2FF00;
+
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.main{
+  
+  height:400px;
+  width:550px;
+  
+}
+
+#header{
+  padding:10px;
+  border-radius:10px 10px 0px 0px;
+  border-bottom:3px solid #FF3737;
+  font-family: 'Josefin Sans';
+  font-size:20px;
+  color:#FF3737;
+}
+
+.body{
+  
+  overflow-y: scroll;
+  overflow: auto;
+  -webkit-transition: all .5s;
+  
+  max-height:287px;
+  
+  margin:30px;
+  padding:20px;
+  
+  background-color:#E3FF61;
+  font-family: 'Josefin Sans';
+  object-fit: cover; 
+}
+/*hide scroll bar*/
+.body::-webkit-scrollbar {
+  width: 20px;
+}
+.fa{
+  float:right;
+  font-size:20px;
+  color:#FF3737;
+  padding:5px;
+}
+a{
+  color:#FF3737;
+}
+/*-------------------*/
+.win1{
+  position:fixed;
+  top:5%;
+  left:20%;
+  height:100px;
+  width:100px;
+  padding:20px;
+  border-radius:10px;
+  background-color:white;
+  border:1px solid #FF3737;
+}
+.win2{
+  position:fixed;
+  top:75%;
+  left:70%;
+  height:100px;
+  width:100px;
+  padding:20px;
+  border-radius:10px;
+  background-color:white;
+  border:1px solid #FF3737;
+}
+.warning{
+  font-size:50px;
+  padding-top:30px;
+  padding-right:20px;
+  float:bottom;
+}
+.excl{
+  font-size:40px;
+}
