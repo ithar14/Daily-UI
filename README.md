@@ -9,6 +9,7 @@
 #### 002 Credit Card Checkout [ 04/03/2020 ]
 #### 003 Landing Page [ 04/20/2020 ]
 #### 004 Calculator [ 04/15/2020 ]
+#### 005 App Icon [ 04/26/2020 ]
 #### 006 User Profile [ 03/28/2020 ]
 #### 007 Settings [ 04/04/2020 ]
 #### 008 404 Page [ 04/21/2020 ]
