@@ -1,0 +1,39 @@
+doctype html
+  html
+    head
+      title= "024 Boarding Pass"
+      link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css')
+      link(rel='stylesheet', href='style.sass')
+    body
+	.container
+	    .ticket.basic
+		i.fa.fa-barcode(aria-hidden="true") 
+		.text
+			p Passenger Name
+			h1 JOHN DOE
+			p Class
+			h1 Economy
+			.seat
+				p Seat
+				h1 11E
+			.flight
+				p Flight
+				h1 2005
+
+	    .ticket.airline
+		.item1
+			.from
+				p from
+				h1 BWI
+			i.fa.fa-plane
+			.to
+				p to
+				h1 SAN
+		.item2
+			.gate
+				p Gate
+				h1 B3
+			.time
+				p Boarding Time
+				h1 10:25AM
+
